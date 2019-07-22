@@ -4,6 +4,8 @@
 		Full details here https://css-tricks.com/box-sizing/ */
 }
 
+
+
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
@@ -17,6 +19,14 @@ section{
 	margin-bottom: 20px;
 }
 
+.nav{
+	background-color: #E5AA92;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	text-align: center;
+}
+
 header{
 	background-color: darkOrange;
 	color: black; /* more readable on an orange background */
@@ -27,7 +37,7 @@ header{
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: red;
+	background-color: #4b9bb8;
 }
 
 nav a, nav h3{
